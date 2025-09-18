@@ -5,12 +5,12 @@ const Home_page = () => {
 
     let [weather, setweather]=useState(null)
     let [search,setsearch]=useState('')
-    // let search='chennai'
+    
 
 
     const sub = (e) => {
         e.preventDefault();
-        // The weather will update automatically due to useEffect dependency
+        
     };
 
     useEffect(() => {
