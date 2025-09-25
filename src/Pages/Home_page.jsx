@@ -37,7 +37,7 @@ return (
             <button type="submit" className='btn'>Search</button>
         </form>
         <div className="inner">
-            <h1>City :{weather && weather.main ? weather.name : "___"}</h1>
+            <h1>City :{weather && weather.main ? weather.name : "___"}</h1> <br /><br />
             <h2><span>Temperature :</span>{weather && weather.main ? (weather.main.temp - 273.15).toFixed(2) + " C" : "___"} </h2>
             <h2><span>Wind Speed :</span>{weather && weather.main ? weather.wind.speed + " kmph" : "___"}</h2>
             <h2>Climate :{weather && weather.weather ? weather.weather[0].main : "___"}</h2>
